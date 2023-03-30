@@ -1,0 +1,437 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  width: 100%;
+  height: auto;
+}
+body {
+  width: 100%;
+  height: auto;
+}
+
+.ulMovMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: calc(100% - 50px);
+}
+.ulMovMenu li > a {
+  font-size: 26px;
+}
+
+/* The Cover Page ------------------------------------------------------> */
+.theCover {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+}
+.mainImagesContainer {
+  margin-top: 70px;
+  padding: 25px 17px 20px 17px;
+  width: 100%;
+  height: 54vh;
+  display: flex;
+}
+.phoneImg,
+.masArteLogo {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+}
+.phoneScreen,
+.masArteMain {
+  width: 100%;
+  max-height: 335px;
+  max-width: 170px;
+}
+.hlContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.hl {
+  margin: 0;
+  border: 1.5px solid #e0e32a;
+  width: 160px;
+}
+.myInfo {
+  display: flex;
+  justify-content: center;
+  margin: 35px 0px;
+  width: 90%;
+  font-family: 'League Spartan';
+  font-weight: 400;
+  font-size: 16px;
+}
+.myInfo > ul {
+  list-style-type: none;
+}
+.hlMyInfo {
+  color: #110a3b;
+  font-family: 'League Spartan';
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/* Para Empezar Page ------------------------------------------------------> */
+.generalContainers {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 70px;
+  color: #110a3b;
+  font-family: 'League Spartan';
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.subTitles {
+  display: flex;
+  justify-content: flex-start;
+  color: #110a3b;
+  font-family: 'League Spartan';
+  font-weight: 400;
+  font-size: 36px;
+  margin-bottom: 24px;
+  margin-left: 20px;
+}
+
+.miniTitles {
+  display: flex;
+  justify-content: center;
+  color: #110a3b;
+  font-family: 'League Spartan';
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+
+.txtDiv {
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Retos Page ---------------------------------------------------------> */
+.txtContainer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  color: #ffffff;
+  background-color: #110a3b;
+  text-align: center;
+  padding: 6px 30px 7px 30px;
+  margin-bottom: 25px;
+}
+
+.txtContainerTitle {
+  font-family: 'League Spartan';
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.txtContainerText {
+  font-family: 'League Spartan';
+  font-weight: 400;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 38px;
+  width: 100%;
+}
+
+.ulTxt {
+  list-style: none; /* Remove default bullets */
+}
+
+.ulTxt li::before {
+  content: '\2022'; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #110a3b;
+  font-size: 14px;
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 10px; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+/* Conoce a los Usuarios -----------------------------------------------------> */
+.personCard {
+  display: flex;
+  border: 1px solid #110a3b;
+  padding: 10px;
+  margin-bottom: 26px;
+}
+.personInfo {
+  font-family: 'League Spartan';
+  font-weight: 500;
+  font-size: 14px;
+}
+.personDescr {
+  font-family: 'League Spartan';
+  font-weight: 400;
+  font-size: 12px;
+}
+.personImg > img {
+  width: 85px;
+  height: 85px;
+}
+
+/* Auditoría Competitiva -----------------------------------------------------> */
+.competitors {
+  font-family: 'League Spartan';
+  font-weight: 500;
+  font-size: 20px;
+}
+
+/* Comienzo de Diseño ---------------------------------------------------------> */
+.imgContent {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.imgContent > img {
+  width: 300px;
+  margin-bottom: 21px;
+}
+.secondSubTitle {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: #110a3b;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 25px;
+  margin-bottom: 22px;
+}
+.txtContainerCentered {
+  text-align: center;
+  font-family: 'League Spartan';
+  font-weight: 400;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 38px;
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+/* Guía de Diseño ------------------------------------------------------> */
+#csPurple {
+  background-color: #110a3b;
+}
+#csGray {
+  background-color: #e0e32a;
+}
+#csWhite {
+  border: 1.5px solid #000000;
+}
+.dsgContent {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+.colorSquare {
+  width: 72px;
+  height: 72px;
+}
+.fontContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+.montserrat,
+.cantarell {
+  width: 70%;
+  margin-bottom: 22px;
+}
+.fontTitle {
+  font-size: 24px;
+}
+.montserrat > .fontTitle {
+  font-family: 'League Spartan';
+  font-weight: 500;
+}
+.cantarell > .fontTitle {
+  font-family: 'League Spartan';
+  font-weight: 300;
+}
+.btnContent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.dsgBtn {
+  margin-bottom: 15px;
+}
+
+.shadowSquare {
+  width: 272px;
+  height: 52px;
+  box-shadow: 4px 4px 4px #888888;
+  margin-bottom: 22px;
+}
+
+/* Reflexiones ---------------------------------------------------------> */
+.hlOrange {
+  color: #edd223;
+}
+
+/* RExtras -------------------------------------------------------------> */
+.noMrgBtm {
+  margin-bottom: 0;
+}
+
+/* Media queries ------------------------------------------------------> */
+/* @media (min-width: 426px) {
+  .theCover {
+    flex-direction: row;
+  }
+  #hlCover {
+    display: none;
+  }
+  .mainImagesContainer,
+  .myInfo {
+    height: calc(100%-100px);
+    margin-top: 0;
+    align-items: center;
+  }
+  .myInfo > ul {
+    padding: 0;
+    margin: 0;
+  }
+} */
+
+@media (min-width: 590px) {
+  .txtContainerTitle,
+  .personInfo {
+    font-size: 18px;
+  }
+  .txtContainerText,
+  .txtContainerCentered,
+  .personDescr {
+    font-size: 16px;
+  }
+  .secondSubTitle {
+    font-size: 30px;
+  }
+  .imgContent > img {
+    width: 400px;
+  }
+  .personImg > img {
+    width: 120px;
+    height: 120px;
+  }
+  .hl {
+    width: 300px;
+  }
+}
+
+@media (min-width: 701px) {
+  .phoneScreen,
+  .masArteMain {
+    width: 100%;
+    max-height: 719px;
+    max-width: 366px;
+  }
+  .theCover {
+    flex-direction: row;
+  }
+  #hlCover {
+    display: none;
+  }
+  .mainImagesContainer,
+  .myInfo {
+    height: calc(100%-100px);
+    margin-top: 0;
+    align-items: center;
+  }
+  .myInfo > ul {
+    padding: 0;
+    margin: 0;
+  }
+  .colorSquare {
+    width: 150px;
+    height: 150px;
+  }
+  .carousel {
+    max-width: 450px;
+    max-height: 800px;
+  }
+}
+
+@media (min-width: 769px) {
+  .phoneScreen,
+  .masArteMain {
+    width: 100%;
+    max-height: 570px;
+    max-width: 300px;
+  }
+  .myInfo {
+    font-size: 20px;
+  }
+  #finalText {
+    margin-bottom: 150px;
+  }
+  .mainSubContainer {
+    max-width: 900px;
+    background-color: #ffffff;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/fondo.png);
+    background-size: 150px 100px;
+    background-repeat: repeat;
+  }
+}
+
+@media (min-width: 1000px) {
+  .myInfo {
+    font-size: 32px;
+  }
+  .hlMyInfo {
+    font-size: 32px;
+  }
+  .personCard {
+    width: 900px;
+  }
+  .txtContainer {
+    padding: 25px;
+  }
+  .generalContainers {
+    padding-top: 100px;
+  }
+  .txtDiv {
+    padding: 0 15%;
+    font-size: 18px;
+  }
+  .txtContainerText,
+  .txtContainerCentered,
+  .fontDesc,
+  .personDescr {
+    font-size: 18px;
+  }
+  .subTitles {
+    margin-left: 100px;
+  }
+}

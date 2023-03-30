@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/styleNavBar.css" />
+    <link rel="stylesheet" href="/css/styleFooter.css" />
+  </head>
+  <body>
+    <nav class="navBar">
+      <div class="imageContainer">
+        <img
+          src="/img/jardines_logo.png"
+          alt="logo mas arte"
+          id="masArteLogo"
+        />
+      </div>
+      <div class="navBtns">
+        <a href="#inicio" class="navAnchor">Inicio</a>
+        <a href="#masarte" class="navAnchor">Los Jardines</a>
+        <a href="#retos" class="navAnchor">Retos</a>
+        <a href="#usuarios" class="navAnchor">Usuarios</a>
+        <a href="#auditoria" class="navAnchor">Auditoría</a>
+        <a href="#diseño" class="navAnchor">Diseño</a>
+        <a href="#reflexiones" class="navAnchor">Reflexiones</a>
+      </div>
+      <div class="hamburger">
+        <div class="_layer -top"></div>
+        <div class="_layer -mid"></div>
+        <div class="_layer -bottom"></div>
+      </div>
+      <nav class="menuppal">
+        <ul class="ulMovMenu">
+          <li><a href="#inicio" class="hamBtn">Inicio</a></li>
+          <li><a href="#masarte" class="hamBtn">Los Jardines</a></li>
+          <li><a href="#retos" class="hamBtn">Retos</a></li>
+          <li><a href="#usuarios" class="hamBtn">Usuarios</a></li>
+          <li><a href="#auditoria" class="hamBtn">Auditoría</a></li>
+          <li><a href="#diseño" class="hamBtn">Diseño</a></li>
+          <li><a href="#reflexiones" class="hamBtn">Reflexiones</a></li>
+        </ul>
+      </nav>
+    </nav>
+
+    <main>
+      <div class="theCover" id="inicio">
+        <div class="mainImagesContainer">
+          <div class="phoneImg">
+            <img
+              class="phoneScreen"
+              src="/img/ParkMock_iphone.png"
+              alt="Phonescreen with the landing page of +Arte"
+            />
+          </div>
+          <div class="masArteLogo">
+            <img
+              class="masArteMain"
+              src="/img/jardines_logo.png"
+              alt="Logo MasArte"
+            />
+          </div>
+        </div>
+
+        <!-- <hr class="diviLine" /> -->
+        <div class="hl" id="hlCover"></div>
+
+        <div class="myInfo">
+          <ul>
+            <li>
+              <span class="hlMyInfo">Projecto:</span> Web & App Los Jardines
+            </li>
+            <li>
+              <span class="hlMyInfo">Rol:</span> Investigador y diseñador UX
+            </li>
+            <li><span class="hlMyInfo">Duración:</span>Marzo 2023</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="mainSubContainer">
+        <div class="generalContainers" id="masarte">
+          <div class="subTitles">LOS JARDINES</div>
+          <div class="txtDiv">
+            Proyecto de diseño para la experiencia digital de apoyo social a una
+            área específica de la ciudad de Puebla, que cuenta con un proceso de
+            recuperación de espacio público.
+            <br />
+            La investigación partió a raíz de otro proyecto de investigación
+            (Posgrado en Ordenamiento de territorio) que abarca como tema
+            central la recuperación del espacio público, esto presentando
+            diversos eventos en alguno de los 50 parques existentes dentro de la
+            colonia Jardines de San Manuel, Puebla, Pue. El proyecto busca
+            presentar información sobre los eventos que se presentarán en los
+            diferentes parques/jardínes de la zona, dicha información va desde
+            el nombre del evento, el horario, ubicación y clasificación.
+          </div>
+        </div>
+
+        <div class="generalContainers" id="retos">
+          <div class="subTitles">RETOS</div>
+          <div class="txtContainer">
+            <div class="txtContainerTitle">El Problema</div>
+            <div class="txtContainerText">
+              Como parte del proyecto de recuperación de espacios públicos, se
+              plantea la organización de eventos (deportivos, culturales,
+              artísticos, etc.) en los diferentes jardines que existen en la
+              colonia San Manuel. Una de las problemáticas a solucionar con esta
+              idea, es la forma de dar a conocer los horarios y calendarios de
+              dichos eventos a los habitantes de la zona y al público en
+              general.
+            </div>
+          </div>
+          <div class="txtContainer">
+            <div class="txtContainerTitle">El Objetivo</div>
+            <div class="txtContainerText">
+              Desarrollar un sitio web / app que le facilite a los usuarios el
+              acceso a eventos culturales, deportivos, etc. Esto con el fin de
+              lograr apoyar al proceso de recuperación de espacios públicos en
+              la zona.
+            </div>
+          </div>
+          <div class="hlContainer"><div class="hl"></div></div>
+          <div class="miniTitles">¿Qué buscamos?</div>
+          <div class="txtContainerText">
+            <ul>
+              <li>
+                Crear una guía que indique de forma precisa los horarios de los
+                eventos y su localización
+              </li>
+              <li>
+                Ofrecer indicaciones sobre cómo llegar al lugar exacto del
+                evento, a través de un mapa interactivo
+              </li>
+              <li>
+                Dar una opción de guardado de eventos favoritos por medio del
+                registro de nuestra cuenta dentro de la web/app
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="generalContainers" id="usuarios">
+          <div class="subTitles">LOS USUARIOS</div>
+          <div class="txtDiv">
+            <div class="personCard">
+              <div class="personImg">
+                <img src="/img/pngPerson/manY.png" alt="Patricia Miller" />
+              </div>
+              <div class="personText">
+                <div class="personInfo">
+                  <div class="personName">Nombre: Mario Hernández</div>
+                  <div class="personAge">Edad: 26</div>
+                  <div class="personOcup">Ocupación: Estudiante</div>
+                </div>
+                <div class="personDescr">
+                  Mario Hernández es un estudiante que vive con sus abuelos y su
+                  perro. Él necesita saber, específicamente, cuándo y donde se
+                  realizan eventos culturales cerca de su casa, porque quiere
+                  que el y sus abuelos puedan salir a caminar, para que así
+                  puedan cuidar de su salud y subir su estado de ánimo después
+                  de haber estado encerrados durante la pandemia.
+                </div>
+              </div>
+            </div>
+            <div class="personCard">
+              <div class="personImg">
+                <img src="/img/pngPerson/manO.png" alt="Patricia Miller" />
+              </div>
+              <div class="personText">
+                <div class="personInfo">
+                  <div class="personName">Nombre: Javier Goitia</div>
+                  <div class="personAge">Edad: 78</div>
+                  <div class="personOcup">Ocupación: Ingeniero (Retirado)</div>
+                </div>
+                <div class="personDescr">
+                  Javier es un hombre de la tercera edad que quiere poder salir
+                  a caminar en las tardes con su esposa y llevar a sus nietos a
+                  jugar en los fines de semana. Cerca de su casa se organizan
+                  eventos en algunos espacios públicos, pero no hay un horario
+                  específico o al menos no se les avisa. Javier necesita una app
+                  (Sus hijos le regalaron un smartphone nuevo) que le indique en
+                  qué parque son los eventos, el horario y si son aptos para
+                  niños pequeños.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="generalContainers" id="auditoria">
+          <div class="subTitles">AUDITORÍA COMPETITIVA</div>
+          <div class="txtContainer">
+            <div class="competitors">TodoPuebla</div>
+            <div class="competitors">Tripadvisor</div>
+            <div class="competitors">Programa Destinos México</div>
+          </div>
+
+          <div class="hlContainer"><div class="hl"></div></div>
+          <div class="miniTitles">¿Qué buscamos?</div>
+          <div class="txtContainerText">
+            Algunas oportunidades que identificadas incluyen:
+            <ul class="ulTxt">
+              <li>
+                Organizar las opciones de navegación para hacerlo un proceso
+                sencillo.
+              </li>
+              <li>
+                Opciones para aplicación de filtros a las búsquedas de eventos,
+                por categoría, fecha o ubicación.
+              </li>
+              <li>
+                Facilitar el acceso a los eventos favoritos, así como el proceso
+                de selección de los mismos.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="generalContainers" id="diseño">
+          <div class="subTitles">DISEÑO</div>
+          <div class="imgContent">
+            <img
+              src="/img/designStart/sketchMano.jpg"
+              alt="Handmade wireframe"
+              srcset=""
+            />
+          </div>
+          <div class="imgContent">
+            <img
+              src="/img/designStart/sketchManoDesk.jpg"
+              alt="Handmade wireframe"
+              srcset=""
+            />
+          </div>
+          <div class="miniTitles">Wireframe en Papel</div>
+          <div class="hlContainer"><div class="hl"></div></div>
+          <div class="txtContainerCentered">
+            En esta ocasión, el diseño surgió a partir del uso de técnicas como
+            crazy eights y How might we. Posteriormente adapté los resultados a
+            las necesidades del proyecto, en versiones móvil y escritorio.
+          </div>
+
+          <div class="imgContent">
+            <img
+              src="/img/designStart/CutPrimerWireframe.png"
+              alt="Digital wireframe"
+            />
+          </div>
+          <div class="miniTitles">Del Papel a lo Digital</div>
+          <div class="hlContainer"><div class="hl"></div></div>
+          <div class="txtContainerCentered">
+            Cuando se trabaja en un proyecto de diseño, es común realizar varios
+            bocetos en papel antes de crear la versión final en formato digital.
+            Al llevar a cabo la digitalización de los bocetos, se convierten en
+            un archivo digital que puede ser editado con herramientas de diseño.
+            Al trabajar con esta versión digital, es posible identificar y
+            corregir errores o ajustes que no fueron percibidos durante el
+            proceso de bocetaje en papel. <br />
+            -La página de inicio presenta 4 opciones de navegación, que serían
+            las de principal interés para el usuario.
+            <br />
+            -Se probó un menú de navegación diferente al de mis proyectos
+            anteriores.
+          </div>
+
+          <div class="imgContent">
+            <img
+              src="/img/designStart/Lo-fiProto.png"
+              alt="Digital wireframe"
+            />
+          </div>
+
+          <div class="miniTitles">Prototipo Baja Fidelidad (Lo-Fi)</div>
+          <div class="hlContainer"><div class="hl"></div></div>
+          <div class="txtContainerCentered noMrgBtm">
+            El flujo de usuario comienza en la Página de Inicio, pasa a Eventos
+            o Mapa, ahí podemos seleccionar alguna de las opciones para un
+            evento (podemos aplicar diversos filtros) posteriormente la añadimos
+            a favoritos.
+          </div>
+        </div>
+
+        <div class="generalContainers">
+          <div class="subTitles">ESTUDIO DE USABILIDAD</div>
+          <div class="miniTitles">Parámetros</div>
+          <div class="txtContainerText">
+            <ul class="ulTxt">
+              <li>El estudio no fue moderado.</li>
+              <li>Modalidad del estudio: Remota.</li>
+              <li>Localización de los participantes: México.</li>
+              <li>Total de participantes: 4.</li>
+              <li>Duración: 30 minutos.</li>
+            </ul>
+          </div>
+
+          <div class="hlContainer"><div class="hl"></div></div>
+
+          <div class="miniTitles">Hallazgos</div>
+          <div class="txtContainerText">
+            <ul class="ulTxt">
+              <li>
+                El acceso a favoritos debe ser fuera del apartado de cuenta,
+                debe ser más directo.
+              </li>
+              <li>
+                Añadir galerías de parques y eventos para mejores referencias.
+              </li>
+              <li>
+                Modificar el menú de filtros dentro de mapa, ya que abarca
+                demasiado espacio en la pantalla.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="generalContainers">
+          <div class="subTitles">GUÍA DE DISEÑO</div>
+          <div class="miniTitles">Colores</div>
+          <div class="dsgContent">
+            <div class="colorSquare" id="csPurple"></div>
+            <div class="colorSquare" id="csGray"></div>
+            <div class="colorSquare" id="csWhite"></div>
+          </div>
+          <div class="hlContainer"><div class="hl"></div></div>
+
+          <div class="miniTitles">Fuentes</div>
+          <div class="fontContent">
+            <div class="montserrat">
+              <div class="fontTitle">AaEeIiOoUu</div>
+              <div class="fontDesc">League Spartan Bold: Para títulos</div>
+            </div>
+            <div class="cantarell">
+              <div class="fontTitle">AaEeIiOoUu</div>
+              <div class="fontDesc">
+                League Spartan Medium: Para diferenciar alguna palabra
+                específica en los títulos y texto en general
+              </div>
+            </div>
+          </div>
+          <div class="hlContainer"><div class="hl"></div></div>
+
+          <div class="miniTitles">Efectos de Profundidad</div>
+          <div class="btnContent">
+            <div class="shadowSquare" id="csGray"></div>
+          </div>
+          <div class="txtContainerCentered noMrgBtm">
+            RESALTAR (botones y elementos clickeables fuera de la barra de
+            navegación)
+          </div>
+        </div>
+
+        <div class="generalContainers">
+          <div class="subTitles">REFINANDO EL DISEÑO</div>
+          <div class="imgContent">
+            <img src="/img/designRef/Mockup.png" alt="Mockup" />
+          </div>
+          <div class="miniTitles">Maqueta</div>
+          <div class="hlContainer"><div class="hl"></div></div>
+          <div class="txtContainerCentered">
+            Después de la implementación del estudio de usabilidad para la
+            versión móvil, se crearon wireframes en otros tamaños y se repitió
+            el mismo proceso, dando como resultado las maquetas en tamaño móvil,
+            tablet, y escritorio. Lo anterior, como consecuencia de haber
+            aplicado el sistema de diseño creado para este proyecto.
+          </div>
+
+          <div class="imgContent">
+            <img src="/img/designRef/HI-FI Proto.png" alt="Digital wireframe" />
+          </div>
+          <div class="miniTitles">Prototipo Alta Fidelidad (Hi-Fi)</div>
+          <div class="hlContainer"><div class="hl"></div></div>
+          <div class="txtContainerCentered">
+            Al terminar la implementación de color y algunos elementos de diseño
+            como la profundidad, se hizo un nuevo estudio de usabilidad con los
+            mismo participantes, para comprobar que sus necesidades y
+            comentarios hayan sido cubiertos. Esto, en los tamaños móvil y
+            escritorio, del proyecto.
+          </div>
+        </div>
+
+        <div class="generalContainers" id="reflexiones">
+          <div class="subTitles">REFLEXIÓN</div>
+          <div class="txtContainer">
+            <div class="competitors">
+              EL <span class="hlOrange">DISEÑO UX</span> PUEDE APLICARSE PARA EL
+              <span class="hlOrange">BENEFICIO SOCIAL</span>
+            </div>
+            <div class="competitors">
+              EL <span class="hlOrange">DISEÑO RESPONSIVO</span> DE UN PRODUCTO
+              ES MUY LABORIOSO, PERO EXPONENCIALMENTE
+              <span class="hlOrange">SATISFACTORIO</span> AL VERLO TERMINADO
+            </div>
+          </div>
+
+          <div class="hlContainer"><div class="hl"></div></div>
+          <div class="txtContainerCentered" id="finalText">
+            Al ser el último proyecto de la certificación UX de Google, quise
+            hacer algo que tuviera un significado importante para mí. Busqué
+            integrar este proyecto como parte de mi investigación de posgrado,
+            que ya se enfoca en materia de beneficio social. Por ende, tuve que
+            adaptar una de las propuestas de tema de proyecto y estoy muy
+            satisfecho con el resultado. Espero poder desarrollarlo a futuro y
+            seguir contribuyendo de manera positiva a la sociedad, aplicando los
+            conocimientos del diseño UX.
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footerContainer">
+        <div class="fData">
+          Diseñador UX - Desarrollador FrontEnd<br />
+          Juan Carlos Montes Pesquera
+        </div>
+        <div class="vl"></div>
+        <div class="socialMedia">
+          <div class="linkedin">
+            <a
+              href="https://www.linkedin.com/in/juanmontespesquera/"
+              target="_blank"
+              ><img
+                src="/img/svgIcons/icons8-linkedin-500.svg"
+                alt="LinkedIn icon"
+            /></a>
+          </div>
+          <div class="gitHub">
+            <a href="https://github.com/JCMP92" target="_blank"
+              ><img
+                src="/img/svgIcons/iconmonstr-github-1.svg"
+                alt="Github icon"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
